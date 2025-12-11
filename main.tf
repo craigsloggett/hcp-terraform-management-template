@@ -6,7 +6,8 @@
 # The module expects a Team API Token for the "owners" team to be available as the
 # TFE_TOKEN environment variable in the Terraform run environment.
 module "discovery" {
-  source = "git::https://github.com/craigsloggett-lab/terraform-tfe-discovery?ref=v0.14.0"
+  source  = "craigsloggett/discovery/tfe"
+  version = "0.14.0"
 }
 
 # The following are the resources that come with every new HCP Terraform organization.
