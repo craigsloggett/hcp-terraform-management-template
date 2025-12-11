@@ -31,7 +31,7 @@ repository from this template:
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_discovery"></a> [discovery](#module\_discovery) | git::https://github.com/craigsloggett-lab/terraform-tfe-discovery | v0.14.0 |
+| <a name="module_discovery"></a> [discovery](#module\_discovery) | craigsloggett/discovery/tfe | 0.14.0 |
 
 ## Inputs
 
