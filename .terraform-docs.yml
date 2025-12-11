@@ -1,0 +1,24 @@
+formatter: markdown table
+
+recursive:
+  enabled: false
+
+content: |-
+  {{ .Requirements }}
+
+  {{ .Providers }}
+
+  {{ .Modules }}
+
+  {{ .Inputs }}
+
+  {{ .Resources }}
+
+  {{ .Outputs }}
+
+output:
+  file: README.md
+  mode: inject
+
+settings:
+  lockfile: false
