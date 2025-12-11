@@ -1,20 +1,20 @@
 version: 2
 
 # Use this if you are referencing modules from a private module registry.
-registries:
-  hcp-terraform:
-    type: terraform-registry
-    url: https://app.terraform.io # Update this to a custom hostname if needed.
-    token: ${{ secrets.TF_TOKEN_APP_TERRAFORM_IO }}
+# registries:
+#   hcp-terraform:
+#     type: terraform-registry
+#     url: https://app.terraform.io
+#     token: ${{ secrets.TF_TOKEN_APP_TERRAFORM_IO }}
 
 updates:
-- package-ecosystem: terraform
+- package-ecosystem: github-actions
   directory: /
-  registries: '*'
   schedule:
     interval: weekly
 
-- package-ecosystem: github-actions
+- package-ecosystem: terraform
   directory: /
+  registries: '*'
   schedule:
     interval: weekly
