@@ -33,7 +33,7 @@ If you haven't setup an HCP Terraform organization yet, the [Manual Onboarding S
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_discovery"></a> [discovery](#module\_discovery) | craigsloggett/discovery/tfe | 0.14.0 |
+| <a name="module_discovery"></a> [discovery](#module\_discovery) | craigsloggett/discovery/tfe | 0.14.2 |
 
 ## Inputs
 
