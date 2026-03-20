@@ -21,13 +21,13 @@ If you haven't setup an HCP Terraform organization yet, the [Manual Onboarding S
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.5 |
-| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.71.0 |
+| <a name="requirement_tfe"></a> [tfe](#requirement\_tfe) | 0.74.1 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.71.0 |
+| <a name="provider_tfe"></a> [tfe](#provider\_tfe) | 0.74.1 |
 
 ## Modules
 
@@ -43,11 +43,11 @@ No inputs.
 
 | Name | Type |
 |------|------|
-| [tfe_organization.this](https://registry.terraform.io/providers/hashicorp/tfe/0.71.0/docs/resources/organization) | resource |
-| [tfe_organization_membership.this](https://registry.terraform.io/providers/hashicorp/tfe/0.71.0/docs/resources/organization_membership) | resource |
-| [tfe_project.default](https://registry.terraform.io/providers/hashicorp/tfe/0.71.0/docs/resources/project) | resource |
-| [tfe_team.owners](https://registry.terraform.io/providers/hashicorp/tfe/0.71.0/docs/resources/team) | resource |
-| [tfe_team_organization_members.owners](https://registry.terraform.io/providers/hashicorp/tfe/0.71.0/docs/resources/team_organization_members) | resource |
+| [tfe_organization.this](https://registry.terraform.io/providers/hashicorp/tfe/0.74.1/docs/resources/organization) | resource |
+| [tfe_organization_membership.this](https://registry.terraform.io/providers/hashicorp/tfe/0.74.1/docs/resources/organization_membership) | resource |
+| [tfe_project.default](https://registry.terraform.io/providers/hashicorp/tfe/0.74.1/docs/resources/project) | resource |
+| [tfe_team.owners](https://registry.terraform.io/providers/hashicorp/tfe/0.74.1/docs/resources/team) | resource |
+| [tfe_team_organization_members.owners](https://registry.terraform.io/providers/hashicorp/tfe/0.74.1/docs/resources/team_organization_members) | resource |
 
 ## Outputs
 
