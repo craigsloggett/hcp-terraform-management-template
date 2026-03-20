@@ -7,7 +7,7 @@
 # TFE_TOKEN environment variable in the Terraform run environment.
 module "discovery" {
   source  = "craigsloggett/discovery/tfe"
-  version = "0.14.2"
+  version = "0.14.4"
 }
 
 # The following are the resources that come with every new HCP Terraform organization.
