@@ -4,17 +4,24 @@ version: 2
 # registries:
 #   hcp-terraform:
 #     type: terraform-registry
-#     url: https://app.terraform.io
+#     url: https://app.terraform.io # Update this to a custom hostname if needed.
 #     token: ${{ secrets.TF_TOKEN_APP_TERRAFORM_IO }}
+#
+# If you add the private module registry configuration above, you must add
+# the `registries: '*'` configuration under the `terraform`
+# package-ecosystem configuration below.
 
 updates:
-- package-ecosystem: github-actions
-  directory: /
-  schedule:
-    interval: weekly
+  - package-ecosystem: terraform
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore(deps)
 
-- package-ecosystem: terraform
-  directory: /
-  registries: '*'
-  schedule:
-    interval: weekly
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore(ci)
