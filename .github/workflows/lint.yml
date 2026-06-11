@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
       - name: Lint Workflow Files
         uses: craigsloggett/lint-github-actions-workflows@bf90c927b04eeaffc4cc111083e351de7582b91e # v1.0.2
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
       - name: Lint YAML Files
         uses: craigsloggett/lint-yaml@ad4c7c441a605c10fd1a0c6aaa89fc4273400659 # v1.0.7
@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
       - name: Lint Shell Scripts
         uses: craigsloggett/lint-shell@92d33c5528427fc13f2883aff90cb7439e3cb56d # v1.0.1
@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
       - name: Lint Terraform Configuration
         uses: craigsloggett/lint-terraform@38da3beace3f161c8f45fd4cab250d4447fa3e2c # v1.0.12
@@ -54,7 +54,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
       - name: Lint Terraform Module Documentation
         uses: craigsloggett/lint-terraform-docs@4f6ee05f7f2d52ded43f7eba51554f57beef6bff # v1.0.24
